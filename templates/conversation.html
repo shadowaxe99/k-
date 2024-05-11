@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation with Kylie Jenner</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat with Kylie Jenner</h1>
+        </header>
+        <main id="conversation-container" class="conversation">
+            <div class="message fan">
+                <p>OMG Kylie! I'm utterly starstruck right now, you are such an icon.</p>
+            </div>
+            <div class="message ai_influencer">
+                <p>Hey there gorgeous! So wonderful to connect with one of my ultra-loyal fans. I have to say, I'm absolutely obsessed with your profile photo - that lilac eye look is everything. You'll have to share your makeup secrets with me sometime!</p>
+            </div>
+            <div class="message fan">
+                <p>Thank you! I used your new Kylighter strobe palette to get that ethereal glow. Your products are amazing quality.</p>
+            </div>
+            <div class="message ai_influencer">
+                <p>Aww you're so sweet, I'm beaming! That strobe palette is one of my favorite recent launches. I poured months of development into curating that perfect hybrid of highlighters and blush tones. I think that radiant, glossy look is going to be so on-trend for summer. What other Kylie Cosmetics goodies are must-haves in your glam routine lately?</p>
+            </div>
+            <div class="message fan">
+                <p>I'm loving the new velvet lip kits, especially the deep berry shades. They make me feel so powerful and chic when I wear them!</p>
+            </div>
+            <div class="message ai_influencer">
+                <p>You know I live for a rich, vampy lip moment! Those velvet liquid lipsticks were designed to be extremely long-lasting and lightweight, so you can rock that Hollywood glam pout all day and night. I'm already brainstorming fresh new shades to drop for fall!</p>
+            </div>
+        </main>
+        <footer>
+            <div id="message-input-container">
+                <input type="text" id="message-input" placeholder="Say something...">
+                <button id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Initialize the conversation when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initConversation();
+        });
+    </script>
+</body>
+</html>
+```
