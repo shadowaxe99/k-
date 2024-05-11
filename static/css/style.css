@@ -1,0 +1,160 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #e58eae;
+}
+
+.main-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #e58eae;
+}
+
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.conversation,
+.features-list,
+.subscription-plans {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.conversation .message {
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.conversation .message.ai_influencer {
+  background-color: #e58eae;
+  color: #fff;
+  text-align: right;
+}
+
+.conversation .message.ai_influencer::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent #e58eae;
+  transform: translateY(-50%);
+}
+
+.feature-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.subscription-plan {
+  border: 2px solid #e58eae;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.subscription-plan:hover {
+  background-color: #e58eae;
+  color: #fff;
+}
+
+.subscription-plan h3 {
+  margin-top: 0;
+}
+
+.subscription-plan p {
+  margin-bottom: 20px;
+}
+
+.subscription-plan .price {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e58eae;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d85d8a;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
